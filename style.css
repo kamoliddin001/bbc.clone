@@ -1,0 +1,40 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        /* height: px; */
+        width: 100%;
+        background-color: black;
+    }
+    
+    header nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        /* width: 70%; */
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 70%;
+        /* padding: 5px 10px; */
+    }
+    
+    nav ul li {
+        border-right: 1px solid white;
+        padding: 5px 8px;
+        border-left: 1px solid white;
+        flex: 1
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        width: 60px;
+        height: 25px;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        font-size: 25px;
+    }
