@@ -3,6 +3,8 @@
         padding: 0;
     }
     
+
+    }
     header {
         /* height: px; */
         width: 100%;
@@ -37,4 +39,20 @@
         color: black;
         font-weight: bold;
         font-size: 25px;
+    }
+
+    .wellcome {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .hospital {
+        width: 600px;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,0.7)), url(https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/AC6D/production/_117514144_066047679.jpg);
+        height: 300px;
+        border: 1px solid black;
+        /* background-size: cover; */
+        background-repeat: no-repeat;
+
     }
